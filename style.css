@@ -43,7 +43,30 @@ h1 {
   background-repeat: no-repeat;
   background-position: right;
 }
+.experience {
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
 .experience_container {
   display: flex;
+  justify-content: center;
   align-items: center;
+}
+.experience_items h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.experience_items {
+  width: 40%;
+  height: 300px;
+  margin: 2%;
+  padding: 25px 50px;
+  box-shadow: 10px 10px 40px lightslategray;
+}
+.orange_border {
+  border-left: 7px solid #ff6600;
+}
+.blue_border {
+  border-left: 7px solid blue;
 }
