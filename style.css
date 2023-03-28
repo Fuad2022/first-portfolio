@@ -70,3 +70,9 @@ h1 {
 .blue_border {
   border-left: 7px solid blue;
 }
+.footer {
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+  color: rgb(145, 145, 145);
+}
